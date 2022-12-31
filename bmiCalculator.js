@@ -9,9 +9,9 @@ app.get("/bmicalculator", function(req, res){
 })
 
 app.post("/bmicalculator", function(req, res){
-    var weight1 = Number(req.body.weight);
-    var height1 = Number(req.body.height);
-    var result = weight1/(height1*height1);
+    var weight11 = Number(req.body.weight);
+    var height11 = Number(req.body.height);
+    var result = weight11/(height11*height11);
 
     res.send("Your BMI is "+ result);
 })
